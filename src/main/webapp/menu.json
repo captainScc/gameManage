@@ -1,0 +1,39 @@
+{
+   "menus" : [
+   				{"icon" : "icon-sys","menuid" : "1","menuname" : "系统管理","url" : "","menus" : [
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "用户管理","url" : "/user/findById.action?sysUserQueryCustom.id=56"
+                 },
+                  {"icon" : "icon-log","menuid" : "1_1","menuname" : "角色授权","url" : "http://www.itheima.com"
+                 }]
+               },
+   				{"icon" : "icon-sys","menuid" : "1","menuname" : "用户管理","url" : "","menus" : [
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "玩家基本信息","url" : "/user/queryuser"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "玩家背包信息","url" : "/user/queryItem"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "玩家在线日志","url" : "/user/online"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "玩家权限管理","url" : "/user/auth"
+                 }]
+               },
+               {"icon" : "icon-sys","menuid" : "1","menuname" : "订单管理","url" : "","menus" : [
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "药品目录导出","url" : "/ypml/exportypxx.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "药品目录导入","url" : "/ypml/importypxx.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "药品目录同步","url" : "/ypml/syncypxx.action"
+                 }]
+               },
+               {"icon" : "icon-sys","menuid" : "1","menuname" : "区服管理","url" : "","menus" : [
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "创建采购单","url" : "/cgd/add.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "采购单维护","url" : "/cgd/list.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "审核采购单","url" : "/cgd/checklist.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "受理采购单","url" : "/yycg/cgd/disposelist.action"
+                 }]
+               }
+
+             ]
+} 
